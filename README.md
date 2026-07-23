@@ -21,33 +21,21 @@ Cybersecurity • OSINT • Virtualization • UEFI Research
 
 Visual Badges and Project Media
 ---
+<img width="800" height="600" alt="IMG_3032" src="https://github.com/user-attachments/assets/13a0beef-b33d-4d27-a7a7-ccd4297a320b" />
+<img width="800" height="601" alt="IMG_3030" src="https://github.com/user-attachments/assets/dafb24da-1b6c-4eb9-99cf-d33489cbfd18" />
+<img width="800" height="600" alt="IMG_3028" src="https://github.com/user-attachments/assets/d5dd843b-afd7-48fd-9bb7-58e70f395608" />
+<img width="1280" height="800" alt="IMG_3025" src="https://github.com/user-attachments/assets/974a68d2-e621-48e8-bebe-ba7d37d66ece" />
+<img width="1280" height="800" alt="IMG_3022" src="https://github.com/user-attachments/assets/8bddacf0-0988-4da2-b4ab-16a438e5b4ec" />
+<img width="800" height="600" alt="IMG_3020" src="https://github.com/user-attachments/assets/740901b7-10ec-48c8-b826-5e2f36f00e2c" />
 
-Features
+
+# Features
 
 • UEFI shell command reference tailored for Virtual Master
 • Android Lollipop VM configuration examples
 • Bootloader and EFI stub documentation
 • WKT12 signature image and branding assets
 • Modular folder structure for expansion, testing, and future builds
----
-
-# Repository Structure
-
-wkt12-android-lollipop-vm
-/
-├─ README.md
-├─ LICENSE
-   ├─ docs/
-   │  ├─ boot-flow.md
-   │  └─ virtual-master-setup.md
-   ├─ images/
-  │    └─ wkt12-signature.png
-  ├─ uefi/
-  │  ├─ commands-cheatsheet.md
-  │  └─ startup.nsh
-  └─ vm/
-   ├─ android-lollipop-notes.md
-   └─ config-example.txt
 ---
 
 ## Quick Start
