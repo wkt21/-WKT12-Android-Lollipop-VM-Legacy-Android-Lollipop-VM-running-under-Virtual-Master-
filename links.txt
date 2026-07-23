@@ -1,0 +1,70 @@
+# WKT12 ISO Gallery  
+A curated collection of virtual machine `.iso` builds for testing, research, and virtualization under Virtual Master.
+
+Inspired by the layout style of:  
+https://mac.getutm.app/gallery/
+
+---
+
+## 🗂️ ISO Collection (Grid View)
+
+| ISO Name | Preview | Architecture | Boot Method | Status | Description |
+|---------|---------|--------------|-------------|--------|-------------|
+| **Android Lollipop VM (WKT12 Edition) 
+| (preview image placeholder) 
+| ARM| UEFI → BOOTX64.EFI 
+| Stable 
+| Legacy Android 5.x VM optimized for Virtual Master 
+  with WKT12 branding. 
+|
+| **Minimal Linux ISO 
+| (preview image placeholder) 
+| x86_64 
+| GRUB / UEFI 
+| Stable 
+| Lightweight Linux environment for shell testing and VM benchmarking. |
+| **UEFI Diagnostics ISO 
+| (preview image placeholder) 
+| x86_64 | Direct UEFI 
+| Experimental 
+| Toolkit ISO for inspecting virtual hardware, memory maps, and EFI protocols. 
+|
+
+---
+
+## 🔍 ISO Details (Example: UEFI Diagnostics ISO)
+
+**Architecture:** x86_64  
+**Boot Method:** Direct UEFI  
+**Status:** Experimental  
+**Use Case:** VM debugging, bootloader testing, EFI scripting  
+
+---
+
+## 📜 Usage
+
+Boot any ISO directly through Virtual Master:
+
+```text
+map -r
+fs0:\EFI\BOOT\BOOTX64.EFI -img iso/<filename>.iso
+
+---
+
+📁 Directory Structure
+
+iso/
+├─ android-lollipop-wkt12.iso
+├─ minimal-linux.iso
+└─ uefi-diagnostics.iso
+
+---
+
+🔧 Notes
+
+• All ISOs validated for Virtual Master compatibility
+• UEFI boot entries are preconfigured
+• Android builds include WKT12 signature branding
+• Grid layout supports unlimited ISO entries
+
+
