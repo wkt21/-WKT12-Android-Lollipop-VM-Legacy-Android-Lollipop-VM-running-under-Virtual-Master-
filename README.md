@@ -27,8 +27,16 @@ Cybersecurity • OSINT • Virtualization • UEFI Research
 ---
 
 🏷️ Badges
+<img width="800" height="600" alt="IMG_3032" src="https://github.com/user-attachments/assets/afc5710a-1215-49c6-a99b-99377dafe37c" />
+<img width="800" height="600" alt="IMG_3031" src="https://github.com/user-attachments/assets/501e28a7-c738-4883-bd8c-ff3c9d5afb9a" />
+<img width="800" height="601" alt="IMG_3030" src="https://github.com/user-attachments/assets/6436ab4a-228c-48f5-b18a-d1851594cf5f" />
+<img width="800" height="599" alt="IMG_3029" src="https://github.com/user-attachments/assets/44820012-7a0d-449f-b0dd-2b8237894c40" />
+<img width="800" height="600" alt="IMG_3028" src="https://github.com/user-attachments/assets/3f6a2b6e-f4c7-4f22-ad29-4f009a0f61ef" />
+<img width="1280" height="800" alt="IMG_3022" src="https://github.com/user-attachments/assets/06d2aa2d-7370-4c4f-a7bc-131b8af04b9c" />
+<img width="800" height="600" alt="IMG_3020" src="https://github.com/user-attachments/assets/f2100319-a0de-4d06-9439-8c5c745cf6fd" />
+<img width="1280" height="800" alt="IMG_3025" src="https://github.com/user-attachments/assets/3efd9312-08fb-482f-aec6-535e8fb94322" />
 
-https://img.shields.io/badge/UEFI-Boot-blue https://img.shields.io/badge/Virtual-Master-green https://img.shields.io/badge/Android-5.1_Lollipop-orange
+
 ---
 
 ## 🧠 Features
