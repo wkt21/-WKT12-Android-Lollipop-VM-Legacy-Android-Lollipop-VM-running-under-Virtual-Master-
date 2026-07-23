@@ -1,0 +1,12 @@
+tell application "UTM"
+    set vm to virtual machine named "Ubuntu"
+
+    -- send raw scan codes
+    input scan code of vm codes {35, 163, 18, 146, 38, 166, 38, 166, 24, 152}
+
+    -- send keystrokes with modifier
+    input keystroke of vm text "hello" with modifiers shift
+
+    -- send mouse click
+    input mouse click of vm at {50, 50} with mouse button left
+end tell
