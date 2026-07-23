@@ -1,0 +1,40 @@
+# List VM storage volumes
+map -r
+map
+
+# Inspect the Android VM disk
+ls fs0:\
+ls fs0:\system\
+ls fs0:\boot\
+
+# Navigate to the Android EFI bootloader
+cd fs0:\EFI\ANDROID\
+ls
+
+# Launch Android Lollipop EFI stub
+BOOTX64.EFI
+
+# Launch GRUB inside the VM (if present)
+GRUBX64.EFI
+
+# GRUB manual boot (Virtual Master compatible)
+grub> ls
+grub> set root=(hd0,1)
+grub> linux /kernel root=/dev/sda1 androidboot.hardware=qemu
+grub> initrd /initrd.img
+grub> boot
+
+# Dump memory map (useful for VM debugging)
+memmap
+
+# View virtual PCI devices
+pci
+
+# View loaded drivers in the VM
+drivers
+
+# View handles (UEFI objects)
+handles
+
+# Run startup script if present
+fs0:\startup.nsh
