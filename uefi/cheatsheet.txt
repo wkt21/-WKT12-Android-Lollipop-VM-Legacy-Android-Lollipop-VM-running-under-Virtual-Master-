@@ -1,0 +1,8 @@
+map -r
+ls fs0:\
+cd fs0:\EFI\ANDROID\
+BOOTX64.EFI
+memmap
+pci
+drivers
+handles
