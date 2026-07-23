@@ -1,0 +1,2 @@
+git clone https://github.com/YOUR-USERNAME/wkt12-android-lollipop-vm.git
+cd wkt12-android-lollipop-vm
