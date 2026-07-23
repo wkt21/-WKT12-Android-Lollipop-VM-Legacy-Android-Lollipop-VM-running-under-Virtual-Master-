@@ -1,4 +1,5 @@
-# WKT12 Android Lollipop VM
+# WKT12-Lollipop-Legacy-VM
+
 
 Legacy Android Lollipop VM running under Virtual Master with UEFI‑style control and a documented boot‑flow sequence.
 
