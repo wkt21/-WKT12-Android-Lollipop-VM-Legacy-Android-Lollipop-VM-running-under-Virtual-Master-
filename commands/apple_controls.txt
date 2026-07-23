@@ -1,0 +1,24 @@
+tell application "UTM"
+    set vm to virtual machine named "Ubuntu"
+
+    -- start VM
+    start vm
+
+    -- start VM in disposable mode
+    start vm without saving
+
+    -- pause VM
+    suspend vm
+
+    -- pause VM and attempt to save state
+    suspend vm with saving
+
+    -- stop VM
+    stop vm
+
+    -- force shutdown
+    stop vm by force
+
+    -- kill VM process
+    stop vm by kill
+end tell
