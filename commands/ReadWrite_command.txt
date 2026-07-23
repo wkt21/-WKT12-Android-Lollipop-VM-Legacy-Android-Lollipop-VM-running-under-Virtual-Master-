@@ -1,0 +1,22 @@
+tell application "UTM"
+    set vm to virtual machine named "Ubuntu"
+
+    -- read text file at random offsets
+    tell (open file of vm at "/tmp/hello" for reading)
+        read for length 2 without closing
+        read at offset -2 from end position for length 2 without closing
+        close
+    end tell
+
+    -- write binary data
+    tell (open file of vm at "/tmp/hello" for writing)
+        write with data "njq81XwLTBF2eOzTuMZfrg==" with base64 encoding without closing
+        close
+    end tell
+
+    -- copy file guest → host
+    set output to POSIX file "/path/to/output"
+    pull of (open file of vm at "/tmp/hello") to output
+
+    -- copy file host → guest
+    set input to POSIX file "/path/to
