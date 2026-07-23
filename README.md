@@ -31,7 +31,7 @@ Features
 • Modular folder structure for expansion, testing, and future builds
 ---
 
-Repository Structure
+# Repository Structure
 
 wkt12-android-lollipop-vm/
 ├─ README.md
