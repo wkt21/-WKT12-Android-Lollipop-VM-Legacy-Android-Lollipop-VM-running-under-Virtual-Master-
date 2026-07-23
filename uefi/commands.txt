@@ -1,0 +1,11 @@
+# Reboot the VM
+reset
+
+# Shutdown the VM
+reset -s
+
+# Force remount of virtual disks
+map -r
+
+# Load a different Android image
+fs0:\EFI\BOOT\BOOTX64.EFI -img android_lollipop.img
