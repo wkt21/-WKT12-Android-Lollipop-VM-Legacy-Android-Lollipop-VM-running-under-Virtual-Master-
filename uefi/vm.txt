@@ -1,0 +1,8 @@
+# Mount system image (if BusyBox is included)
+mount -o rw /dev/block/sda1 /system
+
+# Replace system.img (Virtual Master supports hot‑swap)
+cp fs0:\images\system_lollipop.img fs0:\system\system.img
+
+# Inspect boot.img contents
+ls fs0:\boot\
